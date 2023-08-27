@@ -32,3 +32,20 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+/* make it responsive */
+
+@media only screen and (max-width: 640px) {
+  .chessboard {
+    width: 280px;
+    height: 280px;
+  }
+  .black {
+    width: 35px;
+    height: 35px;
+  }
+  .white {
+    width: 35px;
+    height: 35px;
+  }
+}
